@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            
+        }
+        header, nav, main, section, article, aside, footer {
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ccc;
+        }
+        header {
+            background-color: #f4f4f4;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        footer {
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <!-- Basic Blog need to change to semantic tags -->
+    <header>
+        <h1>My Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <h2>Welcome to My Blog</h2>
+                <p>This is a simple blog layout using semantic HTML5 tags.</p>
+            </article>
+            <article>
+                <h2>Another Blog Post</h2>
+                <p>This is another article in the blog section.</p>
+            </article>
+        </section>
+    </main>
+
+    <aside>
+        <h3>Recent Posts</h3>
+        <ul>
+            <li><a href="#">Blog Post 1</a></li>
+            <li><a href="#">Blog Post 2</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>&copy; 2023 My Blog. All rights reserved</p>
+    </footer>
+</body>
+</html>
